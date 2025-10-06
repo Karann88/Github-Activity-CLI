@@ -3,9 +3,9 @@ package com.github.cli;
 import picocli.CommandLine;
 
 @CommandLine.Command(
-        name = "github-activity-viewer",
+        name = "Github-Activity-CLI",
         mixinStandardHelpOptions = true,
-        version = "1.0.0",
+        version = "1.0-SNAPSHOT",
         description = "Fetches and displays recent GitHub user activity."
 )
 public class CommandHandler implements Runnable {
